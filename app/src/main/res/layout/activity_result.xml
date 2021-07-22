@@ -16,23 +16,19 @@
 
     <EditText
         android:id="@+id/pesoEDT"
-        android:layout_marginTop="36sp"
-        android:layout_marginHorizontal="64dp"
         android:layout_width="match_parent"
-        android:inputType="numberDecimal"
-        android:hint="Insira seu pelo em KG"
-        android:textColor="@android:color/holo_green_dark"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:layout_height="wrap_content" />
+        android:hint="@string/peso_emKG"
+        android:layout_height="wrap_content"
+        style="@style/input_style" />
 
     <EditText
         android:id="@+id/alturaEDT"
+        style="@style/input_style"
         android:layout_marginTop="36sp"
         android:layout_marginHorizontal="64dp"
         android:layout_width="match_parent"
         android:inputType="numberDecimal"
-        android:hint="Insira sua altura em Metros"
+        android:hint="@string/altura_cm"
         android:textColor="@android:color/holo_green_dark"
         android:textStyle="bold"
         android:textAlignment="center"
@@ -42,6 +38,11 @@
         android:id="@+id/CalcularBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/Holo_Blue" />
+        android:backgroundTint="@color/Holo_Blue"
+        android:text="@string/BTNCalcular"
+        android:padding="16dp"
+        android:textSize="16sp"
+
+        />
 
 </LinearLayout>
