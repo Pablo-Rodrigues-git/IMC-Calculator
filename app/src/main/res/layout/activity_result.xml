@@ -40,8 +40,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Holo_Blue"
         android:text="@string/BTNCalcular"
-        android:padding="16dp"
         android:textSize="16sp"
+        android:layout_marginTop="45dp"
 
         />
 
