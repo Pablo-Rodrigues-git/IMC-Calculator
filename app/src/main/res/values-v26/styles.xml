@@ -9,4 +9,5 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
     </style>
+
 </resources>
