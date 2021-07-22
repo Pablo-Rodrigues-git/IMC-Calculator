@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Backapp">#DC3D3D</color>
+    <color name="Holo_Blue">#00DDFF</color>
+
 </resources>
