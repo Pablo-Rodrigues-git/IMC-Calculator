@@ -15,11 +15,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setListeners() {
-        alturaEDT?.doAfterTextChanged { text ->
+        alturaEDT?.doAfterTextChanged {
             //Toast.makeText(this, text.toString(), Toast.LENGTH_SHORT).show()
         }
 
-        pesoEDT?.doOnTextChanged { text, _, _, _ ->
+        pesoEDT?.doOnTextChanged { _, _, _, _ ->
            // tittleTXT.text = text
         }
         CalcularBTN?.setOnClickListener {
