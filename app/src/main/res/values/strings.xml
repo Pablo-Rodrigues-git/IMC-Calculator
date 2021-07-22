@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">imc-app2</string>
+    <string name="hello_world">Olá Mundo</string>
+    <string name="hi_radio">Olá radio button</string>
+    <string name="hi_checkbox">Olá checkbox</string>
+</resources>
