@@ -15,9 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:visibility="visible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -28,26 +26,22 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/Tittle.TXT"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/pesoEDT"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79" />
+        android:visibility="gone"
+        />
 
     <EditText
         android:id="@+id/pesoEDT"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         style="@style/input_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:hint="@string/peso_emKG"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+       />
 
     <EditText
         android:id="@+id/alturaEDT"
@@ -59,10 +53,8 @@
         android:inputType="numberDecimal"
         android:textColor="@android:color/holo_green_dark"
         android:textStyle="bold"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="@id/pesoEDT"
-        app:layout_constraintStart_toStartOf="@id/pesoEDT"
-        app:layout_constraintTop_toBottomOf="@id/pesoEDT" />
+        android:visibility="gone"
+        />
 
     <Button
         android:id="@+id/CalcularBTN"
@@ -72,11 +64,7 @@
         android:backgroundTint="@color/Holo_Blue"
         android:text="@string/BTNCalcular"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alturaEDT"
-        tools:visibility="visible" />
+        tools:visibility="gone" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
