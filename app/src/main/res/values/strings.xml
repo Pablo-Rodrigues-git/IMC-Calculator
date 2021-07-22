@@ -4,8 +4,8 @@
     <string name="hi_radio">Olá radio button</string>
     <string name="hi_checkbox">Olá checkbox</string>
     <string name="Tittle.TXT">IMC</string>
-    <string name="peso_emKG">Peso em KG</string>
-    <string name="altura_cm">Altura em cm </string>
+    <string name="peso_emKG">Peso(82 Kg)</string>
+    <string name="altura_cm">Altura(ex: 1,78 m) </string>
     <string name="BTNCalcular">Calcular</string>
 
 </resources>
