@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:gravity="center"
-    android:layout_height="match_parent"
-    >
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
 
     <TextView
     style="@style/tittle_purple"
@@ -15,6 +15,10 @@
 
     <TextView
     style="@style/tittle_purple"
+    android:layout_marginTop="24dp"
+    android:paddingTop="16dp"
+    android:visibility="invisible"
+    tools:visibility="visible"
     android:text="@string/hello_world"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
