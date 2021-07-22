@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="center"
-    android:orientarion="vertical"
     android:layout_height="match_parent">
 
     <TextView

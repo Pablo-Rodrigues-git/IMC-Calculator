@@ -4,38 +4,44 @@
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
-    android:orientarion="vertical"
+    android:gravity="center"
     android:layout_height="match_parent">
 
     <TextView
-    style="@style/tittle_purple"
-    android:text="@string/hello_world"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+        android:id="@+id/tittleTXT"
+        style="@style/tittle_purple"
+        android:text="@string/Tittle.TXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
-    <TextView
-    style="@style/tittle_purple"
-    android:layout_marginTop="24dp"
-    android:paddingTop="16dp"
-    android:visibility="invisible"
-    tools:visibility="visible"
-    android:text="@string/hello_world"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/pesoEDT"
+        android:layout_marginTop="36sp"
+        android:layout_marginHorizontal="64dp"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:hint="@string/peso_emKG"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
 
-    <RadioButton
-    style="@style/tittle_purple"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/hi_radio"
-    android:textSize="24sp" />
+    <EditText
+        android:id="@+id/alturaEDT"
+        android:layout_marginTop="36sp"
+        android:layout_marginHorizontal="64dp"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:hint="@string/altura_MTs"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
 
-    <CheckBox
-    style="@style/tittle_purple"
-    android:layout_width="wrap_content"
-    android:text="@string/hi_checkbox"
-    android:layout_height="wrap_content" />
-
+    <Button
+        android:id="@+id/CalcularBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Holo_Blue" />
 
 </LinearLayout>
