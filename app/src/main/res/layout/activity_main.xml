@@ -10,20 +10,6 @@
     android:background="@drawable/gradient_backgroung">
 
 
-    <ImageButton
-
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <TextView
         android:id="@+id/tittleTXT"
         style="@style/tittle_purple"
@@ -38,7 +24,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
+        app:layout_constraintVertical_bias="0.304" />
 
     <EditText
         android:id="@+id/pesoEDT"
@@ -52,7 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.456" />
+        app:layout_constraintVertical_bias="0.275" />
 
     <EditText
         android:id="@+id/alturaEDT"
@@ -81,6 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alturaEDT"
+        app:layout_constraintVertical_bias="0.11"
         tools:visibility="visible" />
 
     <androidx.constraintlayout.widget.Guideline
