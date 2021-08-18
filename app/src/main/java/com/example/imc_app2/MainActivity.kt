@@ -26,15 +26,15 @@ class MainActivity : AppCompatActivity() {
         }
         CalcularBTN?.setOnClickListener {
             calcularIMC(pesoEDT.text.toString(), alturaEDT.text.toString())
-
-            //closeKeyboard(CalcularBTN)
-
         }
 
-        fun closeKeyboard(View: View) {
-            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-            imm.hideSoftInputFromWindow(CalcularBTN.windowToken, 0)
-        }
+            // Criar função de esconder teclado
+    // closeKeyboard(CalcularBTN)
+
+        //fun closeKeyboard(View: View) {
+            //val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            //imm.hideSoftInputFromWindow(CalcularBTN.windowToken, 0)
+       // }
     }
 
     private fun calcularIMC(peso: String, altura: String) {
